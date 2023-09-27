@@ -26,7 +26,7 @@
     </div>
     <p class="labeled-links" style="text-align: center">
         Made by
-        <a href="https://github.com/cedricbahirwe">Aganze Bahirwe Cedric: 23455</a>
+        <a href="https://github.com/cedricbahirwe" target="_blank">Aganze Bahirwe Cedric: 23455</a>
     </p>
 </div>
 
