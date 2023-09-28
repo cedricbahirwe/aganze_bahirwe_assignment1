@@ -29,4 +29,25 @@
     <url-pattern>/home</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>HomeExample</servlet-name>
+    <servlet-class>service.HomeExample</servlet-class>
+  </servlet>
+
+  <!-- Map the HomeServlet to a URL pattern -->
+  <servlet-mapping>
+    <servlet-name>HomeExample</servlet-name>
+    <url-pattern>/example</url-pattern>
+  </servlet-mapping>
+
+  <filter>
+    <filter-name>Authentication</filter-name>
+    <filter-class>service.ExampleServlet</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>Authentication</filter-name>
+    <url-pattern>/example</url-pattern>
+  </filter-mapping>
+
 </web-app>
